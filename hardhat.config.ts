@@ -86,7 +86,14 @@ const config: HardhatUserConfig = {
   },
   zkit: {
     compilationSettings: {
+      optimization: "O2",
       onlyFiles: [],
+    },
+
+    setupSettings: {
+      contributionSettings: {
+        provingSystem: "plonk",
+      },
     },
   },
   etherscan: {
