@@ -1,0 +1,6 @@
+[package]
+name = "confidential_transfer"
+type = "bin"
+authors = [""]
+
+[dependencies]
