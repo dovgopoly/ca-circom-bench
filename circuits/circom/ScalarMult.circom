@@ -18,4 +18,4 @@ template ScalarMult() {
     publicKey[1] <== pbk.Ay;
 }
 
-component main = ScalarMult();
+// component main = ScalarMult();

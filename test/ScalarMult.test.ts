@@ -4,7 +4,7 @@ import { expect } from "chai";
 import fs from "fs";
 import { zkit } from "hardhat";
 
-describe.only("ScalarMult Circuit", function () {
+describe("ScalarMult Circuit", function () {
   let circuit: ScalarMult;
 
   before(async function () {
